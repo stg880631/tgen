@@ -68,7 +68,7 @@ from tgen.parallel_percrank_train import ParallelRanker
 from tgen.debug import exc_info_hook
 from tgen.rnd import rnd
 from tgen.bleu import BLEUMeasure
-from tgen.seq2seq import Seq2SeqBase, Seq2SeqGen
+from tgen.tgen.seq2seq import Seq2SeqBase, Seq2SeqGen
 from tgen.parallel_seq2seq_train import ParallelSeq2SeqTraining
 from tgen.tfclassif import RerankingClassifier
 
